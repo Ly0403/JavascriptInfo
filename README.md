@@ -1,1 +1,1 @@
-# JavascriptInfo
+# Javascript Docs in https://javascript.info/
