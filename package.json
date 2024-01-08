@@ -2,14 +2,22 @@
   "name": "javascriptinfo",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "lint": "npx eslint */*.js"
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js */*.js",
+    "lint": "npx eslint */*.spec.js"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "eslint": "^8.56.0",
     "eslint-config-google": "^0.14.0"
-  }
+  },
+  "dependencies": {
+    "jest": "^29.7.0"
+  },
+  "jest":{
+    "transform" :{}     
+  } 
 }
